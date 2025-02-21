@@ -55,29 +55,24 @@ Each cell is described using **9 features**, including `Clump Thickness`, `Unifo
 
 ## 🚀 How to Run the Code
 1️⃣ **Clone this repository**  
-
 git clone https://github.com/your-username/SVM-Kernel-Comparison.git
-cd SVM-Kernel-Comparison
+
 2️⃣ Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook or Python script
 
-bash
-Copy
-Edit
+3️⃣ Run the Jupyter Notebook or Python script
 jupyter notebook
+
 ## 📈 Evaluation Metrics
 We evaluate each kernel using:
 
 Confusion Matrix 📊
 Classification Report 📄 (Precision, Recall, F1-score)
+
 F1-score 🎯 (Higher is better)
+
 Jaccard Score 📈 (Higher is better)
-📊 Results & Comparisons
+## 📊 Results & Comparisons
 Confusion Matrices
 Each kernel's confusion matrix is shown below. The ideal confusion matrix has high values on the diagonal (True Positives & True Negatives) and low values elsewhere.
 
@@ -94,7 +89,8 @@ Linear Kernel	0.96	0.91	Best for linearly separable data
 RBF Kernel	0.98	0.94	Best for complex, non-linear data
 Polynomial Kernel	0.94	0.89	Can overfit with high degree
 Sigmoid Kernel	0.85	0.77	Often unstable, not recommended
-Key Observations
+
+**Key Observations**
 🟢 RBF Kernel performs the best on non-linear data.
 🟡 Linear Kernel is great when the data is already separable.
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
