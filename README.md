@@ -103,15 +103,25 @@ These scores help measure how well each kernel performed.
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
 📌 Polynomial Kernel performs moderately well, but its effectiveness depends on degree selection.
 ## 🎯 Conclusion
-1️⃣ Which Kernel Should You Use?
+
+**1️⃣ Which Kernel Should You Use?**
+
 If the data is linearly separable → Use a Linear Kernel. ✅
+
 If the data is non-linearly separable → Use RBF Kernel. ✅
+
 If you suspect curved separation → Try Polynomial Kernel (but tune the degree carefully). ✅
+
 Avoid Sigmoid Kernel unless well-tuned (as it is often unstable). ❌
-2️⃣ Why Do These Differences Exist?
+
+**2️⃣ Why Do These Differences Exist?**
+
 1️⃣ RBF Kernel performs best because it finds non-linear patterns and adapts well to complex data.
+
 2️⃣ Linear Kernel works well when the data can be separated by a straight line.
+
 3️⃣ Polynomial Kernel introduces curved decision boundaries, but high-degree polynomials can overfit.
+
 4️⃣ Sigmoid Kernel is unpredictable and often performs worse unless carefully tuned.
 
-📌 Key Takeaway: If Linear and RBF perform similarly, then the data is linearly separable, and using Linear Kernel is the faster choice.
+📌 **Key Takeaway:** If Linear and RBF perform similarly, then the data is linearly separable, and using Linear Kernel is the faster choice.
