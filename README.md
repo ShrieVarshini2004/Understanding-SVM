@@ -70,7 +70,7 @@ bash
 Copy
 Edit
 jupyter notebook
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 We evaluate each kernel using:
 
 Confusion Matrix 📊
