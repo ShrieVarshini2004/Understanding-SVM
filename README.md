@@ -60,8 +60,9 @@ Each cell is described using **9 features**, including `Clump Thickness`, `Unifo
 
 3️⃣ Run the Jupyter Notebook or Python script
 
+---
 
-###📈 **Evaluation Metrics**
+##📈 **Evaluation Metrics**
 We evaluate each kernel using:
 
 Confusion Matrix 
@@ -72,8 +73,9 @@ F1-score 📊 (Higher is better)
 
 Jaccard Score 📈 (Higher is better)
 
+---
 
-📊 **Results & Comparisons**
+##📊 **Results & Comparisons**
 
 Kernel	F1-score	Jaccard Score	Performance
 
@@ -91,8 +93,9 @@ Sigmoid Kernel	Lowest	Lowest	Often unstable, not recommended
 
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
 
+---
 
-🎯 **Conclusion**
+##🎯 **Conclusion**
 
 If the data is linearly separable → Use a Linear Kernel.
 If the data is non-linearly separable → Use RBF Kernel.
