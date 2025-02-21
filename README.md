@@ -76,26 +76,33 @@ Jaccard Score 📈 (Higher is better)
 Confusion Matrices
 Each kernel's confusion matrix is shown below. The ideal confusion matrix has high values on the diagonal (True Positives & True Negatives) and low values elsewhere.
 
-Kernel	True Positives (TP)	True Negatives (TN)	False Positives (FP)	False Negatives (FN)
-Linear Kernel	High	High	Low	Moderate
-RBF Kernel	Highest	Highest	Lowest	Lowest
-Polynomial Kernel	Moderate	Moderate	Slightly High	Slightly High
-Sigmoid Kernel	Lowest	Lowest	Highest	Highest
-F1-score & Jaccard Score Comparison
+|Kernel |	True Positives (TP)	| True Negatives (TN)	|  False Positives (FP)	| False Negatives (FN) |
+|-------------|----------|--------|---------|---------|
+|Linear Kernel |	High |	High |	Low	Moderate |
+|RBF Kernel |	Highest	| Highest |	Lowest |	Lowest |
+|Polynomial Kernel	| Moderate | Moderate |	Slightly High	| Slightly High |
+|Sigmoid Kernel 	Lowest |	Lowest	| Highest |	Highest |
+
+--- 
+
+**F1-score & Jaccard Score Comparison**
 These scores help measure how well each kernel performed.
 
-Kernel	F1-score	Jaccard Score	Performance
-Linear Kernel	0.96	0.91	Best for linearly separable data
-RBF Kernel	0.98	0.94	Best for complex, non-linear data
-Polynomial Kernel	0.94	0.89	Can overfit with high degree
-Sigmoid Kernel	0.85	0.77	Often unstable, not recommended
+|Kernel |	F1-score |	Jaccard Score |	Performance |
+|-------------|----------|--------|---------|----------------------|
+|Linear Kernel	| 0.96 |	0.91 |	Best for linearly separable data|
+|RBF Kernel |	0.98 |	0.94 |	Best for complex, non-linear data|
+|Polynomial Kernel |	0.94	| 0.89 |	Can overfit with high degree |
+|Sigmoid Kernel	| 0.85 |	0.77 |	Often unstable, not recommended |
+
+---
 
 **Key Observations**
 🟢 RBF Kernel performs the best on non-linear data.
 🟡 Linear Kernel is great when the data is already separable.
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
 📌 Polynomial Kernel performs moderately well, but its effectiveness depends on degree selection.
-🎯 Conclusion
+## 🎯 Conclusion
 1️⃣ Which Kernel Should You Use?
 If the data is linearly separable → Use a Linear Kernel. ✅
 If the data is non-linearly separable → Use RBF Kernel. ✅
