@@ -65,21 +65,35 @@ Each cell is described using **9 features**, including `Clump Thickness`, `Unifo
 We evaluate each kernel using:
 
 Confusion Matrix 
+
 Classification Report 📄 (Precision, Recall, F1-score)
+
 F1-score 📊 (Higher is better)
+
 Jaccard Score 📈 (Higher is better)
 
+
 📊 **Results & Comparisons**
+
 Kernel	F1-score	Jaccard Score	Performance
+
 Linear Kernel	Good	Moderate	Best for linearly separable data
+
 RBF Kernel	Highest	Highest	Best for complex, non-linear data
+
 Polynomial Kernel	Moderate	Moderate	Can overfit with high degree
+
 Sigmoid Kernel	Lowest	Lowest	Often unstable, not recommended
+
 🟢 RBF Kernel performs the best on non-linear data.
+
 🟡 Linear Kernel is great when the data is already separable.
+
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
 
+
 🎯 **Conclusion**
+
 If the data is linearly separable → Use a Linear Kernel.
 If the data is non-linearly separable → Use RBF Kernel.
 If you suspect curved separation → Try Polynomial Kernel.
