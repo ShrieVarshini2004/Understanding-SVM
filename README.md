@@ -98,9 +98,13 @@ These scores help measure how well each kernel performed.
 ---
 
 **Key Observations**
+
 🟢 RBF Kernel performs the best on non-linear data.
+
 🟡 Linear Kernel is great when the data is already separable.
+
 🔴 Sigmoid Kernel is the weakest without fine-tuning.
+
 📌 Polynomial Kernel performs moderately well, but its effectiveness depends on degree selection.
 ## 🎯 Conclusion
 
