@@ -76,12 +76,12 @@ Jaccard Score 📈 (Higher is better)
 Confusion Matrices
 Each kernel's confusion matrix is shown below. The ideal confusion matrix has high values on the diagonal (True Positives & True Negatives) and low values elsewhere.
 
-|Kernel |	True Positives (TP)	| True Negatives (TN)	|  False Positives (FP)	| False Negatives (FN) |
+| Kernel |	True Positives (TP)	| True Negatives (TN)	|  False Positives (FP)	| False Negatives (FN) |
 |-------------|----------|--------|---------|---------|
-|Linear Kernel |	High |	High |	Low	Moderate |
-|RBF Kernel |	Highest	| Highest |	Lowest |	Lowest |
-|Polynomial Kernel	| Moderate | Moderate |	Slightly High	| Slightly High |
-|Sigmoid Kernel 	Lowest |	Lowest	| Highest |	Highest |
+| Linear Kernel |	High |	High |	Low	Moderate |
+| RBF Kernel |	Highest	| Highest |	Lowest |	Lowest |
+| Polynomial Kernel	| Moderate | Moderate |	Slightly High	| Slightly High |
+| Sigmoid Kernel 	Lowest |	Lowest	| Highest |	Highest |
 
 --- 
 
